@@ -36,7 +36,16 @@ h1 {
 	font-size: 30px;
 	color: #7AA095;
 }
+h2 {
+	font-size: 28px;
+	color: #618B4A;
+}
+.episodelist {
+   border-left: 5px solid #AFBC88;
+   font-size: 25px;
+}
 p {
+	text-indent: 30px;
     border-left: 5px solid #AFBC88;
 	font-size: 25px;
 }
