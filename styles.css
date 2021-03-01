@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -16,6 +17,21 @@ nav li {
     width: 100px;
     height: auto;
 }
+.resize2 {
+    width: 300px;
+    height: auto;
+}
+.resize3 {
+
+    width: 600px;
+    height: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 a {
 	color: #D7F9F1;
 	text-decoration: none;
@@ -29,7 +45,8 @@ a:hover {
 a:active {
    color: #326d66;
 }
-body {
+p {
+ font-family: 'Mukta', sans-serif;
 }
 h1 {
 	text-align: center;
@@ -41,11 +58,34 @@ h2 {
 	color: #618B4A;
 }
 .episodelist {
+
    border-left: 5px solid #AFBC88;
-   font-size: 25px;
+   font-size: 20px;
+
+}
+.castlist {
+    display: flex;
+    max-height: 150px;
+    border-left: 5px solid #AFBC88;
+    font-size: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.castlist img {
+	margin: 10px;
 }
 p {
 	text-indent: 30px;
     border-left: 5px solid #AFBC88;
 	font-size: 25px;
+}
+img:hover {
+    webkit-filter: blur(4px); 
+    filter: blur(4px);
+}
+.castp {
+	font-size: 20px;
+	text-align: center;
 }
